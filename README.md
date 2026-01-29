@@ -13,9 +13,10 @@ It shows my introduction, biography, favorite links, and a contact form.
 3. Edit the files to customize your portfolio
 
 ## Live Site
-https://davidmusyoka1.github.io/portfolio-landing-page/
+https://davidmusyoka1-ship-it.github.io/portfolio-landing-page/
 
 ## Copyright and License
 © 2026 Your Name  
 This project is licensed under the MIT License.
+
 
