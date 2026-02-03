@@ -16,7 +16,8 @@ It shows my introduction, biography, favorite links, and a contact form.
 https://davidmusyoka1-ship-it.github.io/portfolio-landing-page/
 
 ## Copyright and License
-© 2026 Your Name  
+© 2026 David Musyoka 
 This project is licensed under the MIT License.
+
 
 
