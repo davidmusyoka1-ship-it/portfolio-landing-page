@@ -1,51 +1,139 @@
+/* Reset & Base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-  font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.7;
 }
 
+/* Header */
 header {
-  background-color: #333;
-  color: white;
-  padding: 20px;
-  text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 25px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
+/* Sections */
 .intro, .favorites, .bio, .contact {
-  background-color: white;
-  margin: 20px;
-  padding: 20px;
-  border: 2px solid #ccc;
-  border-radius: 5px;
+    background-color: white;
+    margin: 20px auto;
+    padding: 25px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    max-width: 800px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
 }
 
-img {
-  width: 150px;
-  border: 3px solid #333;
+/* Headings */
+h1, h2 {
+    margin-bottom: 15px;
+    color: #0D47A1;
 }
 
-ul {
-  list-style-type: square;
+h1 {
+    font-size: 36px;
 }
 
-a:hover {
-  color: red;
+h2 {
+    font-size: 28px;
 }
 
-strong {
-  font-weight: bold;
+/* Favorite pictures */
+.favorites ul {
+    list-style-type: square;
+    margin-left: 20px;
 }
 
-em {
-  font-style: italic;
+.favorites ul li {
+    margin-bottom: 10px;
+}
+
+.favorites a {
+    text-decoration: none;
+    color: #1976D2;
+    font-weight: 500;
+}
+
+.favorites a:hover {
+    color: #0D47A1;
+}
+
+/* Biography image */
+.bio img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    display: block;
+    margin-bottom: 15px;
+    border: 3px solid #333;
+    border-radius: 8px;
+}
+
+/* Form */
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-top: 5px;
+    font-size: 16px;
 }
 
 button {
-  padding: 10px;
-  border: none;
-  background-color: #333;
-  color: white;
-  cursor: pointer;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    background-color: #0D47A1;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.3s;
 }
 
 button:hover {
-  background-color: #555;
+    background-color: #1976D2;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    color: #777;
+    font-size: 14px;
+}
+
+/* Strong & Em */
+strong {
+    font-weight: bold;
+}
+
+em {
+    font-style: italic;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 28px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    .intro, .favorites, .bio, .contact {
+        margin: 15px;
+        padding: 20px;
+    }
 }
